@@ -28,9 +28,13 @@ fn main() {
         id: 37283,
         name: String::from("Another Bean")
     };
+    let employee4 = Employee {
+        id: 37284,
+        name: String::from("Another Another Bean")
+    };
 
     // put employees in a bunch
-    let bunch_of_employees = [employee1, employee2, employee3];
+    let bunch_of_employees = [employee1, employee2, employee3, employee4];
 
     // Make pause info stuffs
     let duration_to_sleep = Duration::from_secs(3);
