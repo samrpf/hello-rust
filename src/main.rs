@@ -1,6 +1,6 @@
 // my very good program
 // in Rust!
-// by samrcode on GitHub
+// By samrpf on GitHub
 
 extern crate ferris_says;
 
